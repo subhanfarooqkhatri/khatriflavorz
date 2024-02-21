@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: orange; 
+    border-radius: 5px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./hero-bg.jpg');
+
+}
+
+/* Navbar Start */
+.container .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 28px;
+}
+.container .navbar-brand span{
+    color: rgb(255, 145, 0);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+.collapse ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.collapse .nav-link {
+    color: white;
+}
+
+.nav-item button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+/* Navbar End */
+/* HeroSection */
+.heroSection {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.contentText {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 50%;
+}
+
+.contentText h3 {
+    margin-top: 6%;
+    margin-left: 5%;
+    color: rgb(255, 140, 0);
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+}
+
+.contentText h1 {
+    margin-top: 2%;
+    margin-left: 4%;
+    color: rgb(251, 211, 162);
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.contentText p {
+    margin-top: 2%;
+    margin-left: 4%;
+    color: rgb(251, 211, 162);
+    font-size: 20px;
+}
+
+.contentText button {
+    margin-top: 3%;
+    margin-left: 4%;
+    padding: 11px 35px;
+    background-color: hsl(28, 100%, 58%);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.burgerimg {
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 88.5vh;
+    background-image: url('./hero-bg-shape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    pointer-events: none;
+}
+
+#mixfruit {
+    width: 100%;
+}
+
+#burger {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 90%;
+    height: 80vh;
+}
+
+/* HeroSection End */
+.main1 {
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    height: 130vh;
+    gap: 10px;
+    justify-content: center;
+    padding: 10% 0px;
+}
+
+.card {
+    width: 21%;
+    background-color: white;
+    height: 100vh;
+}
+.card:hover  {
+    background-color: hsl(41, 100%, 50%);;
+}
+.card:hover .pizza {
+    color: rgb(255, 255, 255);
+}
+.pizza {
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.card h5{
+     text-align: center;
+     position: relative;
+     top: 10%;
+}
+.card:hover h5{
+    color: white ;
+} 
+.card p{
+    line-height: 190%;
+    text-align: center; 
+    position: relative;
+    top: 10%;
+}
+.card:hover p{
+    color: white ;
+}
+
+.card img{
+    width: 80%;
+    position: relative;
+     left:8% ;
+     top: 10%;
+}
+.drink{
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.card:hover .drink {
+    color: rgb(255, 255, 255);
+}
+.burgers{
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.card:hover .burgers {
+    color: rgb(255, 255, 255);
+}
+.ice{
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+.card:hover .ice {
+    color: rgb(255, 255, 255);
+}
+.main2{
+    background-image: url('./hero-bg.jpg');
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+.contect{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 50%;
+}
+.contect h1{
+    margin-top: 4%;
+    margin-left: 0%;
+    color: rgb(251, 211, 162);
+    font-size: 50px;
+    font-weight: 700;
+}
+.contect span{
+    margin-top: 4%;
+    margin-left: 0%;
+    color: rgb(255, 140, 0);
+    font-size: 50px;
+    font-weight: 700;
+}
+.contect p{
+        margin-top: 2%;
+        margin-left: 4%;
+        color: rgb(251, 211, 162);
+        font-size: 15px;
+}.contect button{
+    margin-top: 3%;
+    margin-left: 4%;
+    padding: 11px 35px;
+    background-color: hsl(28, 100%, 58%);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.vip{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    width: 50%;
+    height: 90vh;
+}
+.main3{
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(236, 236, 236);
+    
+}
+.text{
+        text-align: center;
+        position: relative;
+        top: 50%;
+}
+.text h6{
+       color: rgb(177, 0, 0);
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 25px;
+}
+.text h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.text span{
+    color: rgb(243, 118, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.text p{
+    color: rgb(140, 137, 135);
+    font-size: 20px;
+   
+}
+ .maincards{
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    height: 130vh;
+    gap: 10px;
+    justify-content: center;
+    padding: 10% 0px;
+ }
+.cards{
+    width: 30%;
+    background-color: white;
+    height: 90vh;
+    position: relative;
+    top: -80%;
+    left: 0%;
+    box-shadow: 2px 1px 1px;
+}
+.cards h4{
+    text-align: start;
+    position: relative;
+    top: 2%;
+}
+ h4:hover{
+   text-decoration: underline;
+}
+.cards p{
+    text-align: start;
+    position: relative;
+    top: 5%;
+}
+ p:hover{
+   color: grey;
+}
+.cards button{
+    text-align: start;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    border: none;
+}
+ button:hover{
+   background-color: rgb(255, 123, 0);
+   color: white;
+}
+
+
+    
+
